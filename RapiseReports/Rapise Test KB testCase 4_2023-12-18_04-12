@@ -1,1 +1,492 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1 {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+dt {
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.summaryPass {
+    text-align: center;
+    color: darkgreen;
+}
+
+.summaryFail {
+    text-align: center;
+    color: red;
+}
+
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+th,td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.rowPass {
+    color: darkgreen;
+}
+.rowFail {
+    color: darkred;
+}
+</style>
+</head>
+<body>
+<h1>Rapise Test KB testCase 4_2023-12-18_04-12.trp</h1>
+<dt>2023-12-18 04:12:16.487</dt>
+<table>
+  <thead>
+	<tr>
+		<th>At</th>
+		<th>Type</th>
+		<th>Status</th>
+		<th>Message</th>
+		<th>Comment</th>
+	</tr>
+  </thead>
+  <tr class="rowPass">
+    <td>04:12:16.487</td>
+    <td>Test</td>
+    <td>Pass</td>
+    <td>Rapise Test KB testCase 4</td>
+    <td>Passed:55 Failed:0 Time:84.459s</td>
+  </tr>
+  <tr class="rowInfo">
+    <td>04:10:52.130</td>
+    <td></td>
+    <td></td>
+    <td>Starting scenario: Test</td>
+    <td></td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:10:52.132</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Play RVL@Main.rvl.xlsx</td>
+    <td></td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:10:57.748</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:10:59.118</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:00.557</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoSetText(["Karien"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:01.919</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:03.323</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoSetText(["KarinaM"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:04.683</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:06.078</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoSetText(["BeatrizM"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:07.418</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:08.818</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoSetText(["123456sA.a"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:10.162</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:11.558</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoSetText(["123456sA.a"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:12.929</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:14.288</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:15.688</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>login.DoSetText(["Karien"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:17.067</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:18.458</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoSetText(["123456sA.a"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:19.798</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:22.828</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Logout.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:24.228</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:25.628</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:27.008</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoSetText(["Andres2"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:28.398</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:29.851</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoSetText(["Andres"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:31.268</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:32.848</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoSetText(["Casquito"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:34.218</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:35.743</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoSetText(["123456sA.."])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:37.157</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:38.578</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoSetText(["123456sA.."])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:39.962</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:41.338</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:42.788</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>login.DoSetText(["Andres2"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:44.188</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:45.633</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoSetText(["123456sA.."])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:47.008</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:50.058</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Logout.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:51.438</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:52.860</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:54.278</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login.DoSetText(["Rodri1"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:55.663</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:57.093</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>First_Name.DoSetText(["Rodrigo"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:58.462</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:11:59.878</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Last_Name.DoSetText(["DelaSerna"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:01.269</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:02.688</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Password.DoSetText(["123456lA*,"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:04.098</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:05.538</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Confirm_Password.DoSetText(["123456lA*,"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:06.888</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Register1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:08.249</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:09.658</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>login.DoSetText(["Rodri1"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:11.028</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:12.443</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>password.DoSetText(["123456lA*,"])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:13.778</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Login1.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+  <tr class="rowPass">
+    <td>04:12:16.487</td>
+    <td>Assert</td>
+    <td>Pass</td>
+    <td>Logout.DoClick([])</td>
+    <td>Returned Value: true</td>
+  </tr>
+        <tr class="summaryPass">
+            <td colspan="100%" class="summaryPass">Passed: 56, Failed: 0</td>
+        </tr>
+</table>
+</body></html>
+
+
+
+
